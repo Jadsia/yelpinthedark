@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background: image_url('light-veneer.png');
-    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-family: 'allerbold', sans-serif;
 }
 
 .navbar {
@@ -27,3 +27,8 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
+.navbar-inverse .navbar-brand {
+    color: #E3cA6D; 
+    font-family: 'allerbold', sans-serif; 
+    font-size: 26px;
+}
