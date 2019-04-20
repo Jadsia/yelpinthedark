@@ -70,11 +70,20 @@ gem 'bootstrap', '4.0.0.alpha6'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
+end
 
 #add pagination
-gem 'will_paginate', '>= 3.1'
+# gem 'will_paginate', '>= 3.1'
 
 #add forms 
 gem 'simple_form'
 
-end
+#add font awesome
+gem "font-awesome-rails"
+
+#add paginate and bootstrap integration to make it pretty
+# gem 'will_paginate-bootstrap'
+
+gem 'kaminari'
+
+gem 'bootstrap4-kaminari-views'

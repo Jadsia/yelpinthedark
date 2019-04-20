@@ -1,4 +1,11 @@
-        
+<br />
+<div class="pagination justify-content-center">
+
+<%= paginate @places, theme: 'twitter-bootstrap-4',
+                   pagination_class: "pagination-sm",
+                   nav_class: "d-inline-b" %>
+</div>
+
 <% @places.each do |place| %>
     <div class="booyah-box col-10 offset-1"> 
         <h1><%= place.name %></h1>
@@ -6,16 +13,13 @@
         <p><%= place.description %></p><br />
     </div>
 
-
 <% end %>
 
-<%= will_paginate @places %>
+<%# for places in @places %>
 
-<!--
-<% for places in @places %>
-    <div class="places">
-        <h2><%= link_to places.name %></h2>
-    </div>
+    <%# <div class="places"> %>
+        <%# <h2>= link_to places.name</h2> %>
+    <%# </div> %>
 
-<% end %>
--->
+<%# end %>
+
