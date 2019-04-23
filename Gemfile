@@ -84,6 +84,11 @@ gem "font-awesome-rails"
 #add paginate and bootstrap integration to make it pretty
 # gem 'will_paginate-bootstrap'
 
+#add more up to date pagination
 gem 'kaminari'
 
+#get pagination and bootstrap to work together
 gem 'bootstrap4-kaminari-views'
+
+#add user auth
+gem 'devise'
