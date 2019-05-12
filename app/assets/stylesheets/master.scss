@@ -23,13 +23,13 @@ body {
 }
 
 .navbar {
-    background: image_url('wheat.png');
+    background: image_url('full-bloom.png');
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar-inverse .navbar-brand {
-    color: #E3cA6D; 
-    font-family: 'allerbold', sans-serif; 
-    font-size: 26px;
+.navebar-inverse .navbar-brand {
+    color: #E3cA6D !important;
+    font-family: 'allerbold', sans-serif !important;
+    font-size: 26px !important;
 }
 
