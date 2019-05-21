@@ -95,3 +95,9 @@ gem 'devise'
 
 #added per Conrad
 gem 'irb'
+
+#add google maps
+gem 'geocoder'
+
+#adding Figaro to connect ENV with API 
+gem 'figaro'
