@@ -92,3 +92,6 @@ gem 'bootstrap4-kaminari-views'
 
 #add user auth
 gem 'devise'
+
+#added per Conrad
+gem 'irb'

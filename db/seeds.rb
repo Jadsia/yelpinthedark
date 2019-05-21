@@ -10,3 +10,5 @@
 Place.create(name: 'Hard Knox Cafe',  
             description: 'Fried chicken, barbeque ribs & other Southern comfort food is served in a funky, tin-walled shack', 
             address: '2526 3rd St, San Francisco, CA 94107')
+
+
