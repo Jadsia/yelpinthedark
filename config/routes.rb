@@ -2,4 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   resources :places
   root 'places#index'
+  resources :places do
+      resources :comments, only: :create
+  end
 end
