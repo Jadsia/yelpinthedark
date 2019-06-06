@@ -101,3 +101,6 @@ gem 'geocoder'
 
 #adding Figaro to connect ENV with API 
 gem 'figaro'
+
+#adding carrierwave to display photos
+gem 'carrierwave', '~> 1.0'
