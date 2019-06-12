@@ -1,18 +1,17 @@
 Rails.application.configure do
-  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.delivery_method = :test
+ # config.action_mailer.delivery_method = :smtp
 
-# outbound mail configuration
-
-  config.action_mailer.smtp_settings = {
-    tls: false,
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: "example.com",
-    authentication: "plain",
-    enable_starttle_auto: true,
-    user_name: ENV['GMAIL_ADDRESS'],
-    password: ENV['GMAIL_PASSWORD']
-  }
+ # config.action_mailer.smtp_settings = {
+  #  tls: false,
+  #   address: "smtp.gmail.com",
+  #   port: 587,
+  #   domain: "example.com",
+  #   authentication: "plain",
+  #   enable_starttle_auto: true,
+  #   user_name: ENV['GMAIL_ADDRESS'],
+  #   password: ENV['GMAIL_PASSWORD']
+  # }
   
   # add config for auto password reset with devise
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
