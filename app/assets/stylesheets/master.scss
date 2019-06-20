@@ -25,9 +25,10 @@ body {
 .navbar {
     background: image_url('full-bloom.png');
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-}
+    margin-bottom: 0;
+  }
 
-.navebar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand {
     color: #E3cA6D !important;
     font-family: 'allerbold', sans-serif !important;
     font-size: 26px !important;
@@ -68,3 +69,29 @@ body {
   blockquote p {
     display: inline;
   }  
+
+  .carousel.inner > .carousel-item > img, .carousel-item > .carousel-item > a> img {
+    max-height: 550px;
+    width: 100%;
+  }
+
+.carousel-item.active, 
+.carousel-item-next, 
+.carousel-item-prev {
+  display: block;
+}
+
+.carousel-caption {
+  font-family: 'Helvetiva Neue', Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+  background-color: rbga(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.carousel {
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
