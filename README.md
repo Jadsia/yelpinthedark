@@ -1,6 +1,17 @@
-Project Purpose
+# Yelp In The Dark
+
+## Project Purpose
+
+Integrate multiple APIs and Gems in to one seamless review platform. 
+Gems include:
+* boostrap
+* pagination
+
+APIs:
+* Google Maps
+* AWS
  
-Project Requirements
+## Project Requirements
  
 Notes and/or link to git project page
 Link to live
