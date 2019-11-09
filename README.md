@@ -13,60 +13,37 @@ APIs:
  
 ## Project Requirements
  
-Notes and/or link to git project page
-Link to live
-Media
+* Integrate multiple APIs
+* Integrate multiple gems
+* Ruby on Rails backend
+* HTML/CSS front end
+* User authentication
+* Bootstrap integration
  
-Screenshots or videos
+![YITD screencapture](https://user-images.githubusercontent.com/48420271/68522308-c5fb8d00-025e-11ea-84a2-147c2f43590e.JPG)
  
-Features
+## Features
+
+* User authentication
+* Bootstrap integration
+* Post/comment
+* User dashboard
  
-·       List
+## Software Requirements
  
-Software Requirements
+* Rails v. 5.0.0
+* Ruby v. 2.6.3
+* PostgreSQL
+* HTML/CSS
  
-List software versions
-Rails v.
-Ruby v.
-PostgreSQL v.
-VS code?
-JS v.
-HTML
-CSS
  
-Create Account in GitHub and Heroku
+## Clone this Repository
+https://github.com/Jadsia/yelpinthedark 
  
-Link github sign up
-Link Heroku sign up
- 
-Configure Heroku
-Keys??
- 
-Test
-Instructions
- 
-Clone this Repository
-Link e.g. git clone git@github.com:clarkngo/curriculum.git
- 
-Navigate to Directory
- 
-Cd [name of project]
-Create, migrate and seed the database
-$ rails db:create
-$ rails db:migrate
-$ rake db:seed
- 
-Start local server
-$ rails server
- 
-Production Deployment
-$ git push heroku master
-$ heroku run rake db:migrate
- 
-Support
+## Support
 Bug reports and feature requests can be filed with the rest for the Ruby on Rails project here:
 Link to “issues” on github
  
-Copyright
+## Copyright
 copyright:: (c) Copyright 2019 Megan Young. All Rights Reserved.
 
