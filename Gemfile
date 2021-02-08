@@ -103,7 +103,7 @@ gem 'geocoder'
 gem 'figaro'
 
 #adding carrierwave to display photos
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 
 #add gem for AWS 
 gem "fog-aws"
